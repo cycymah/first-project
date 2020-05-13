@@ -20,14 +20,13 @@
   /* выше установили ограничения для секции */
 }
 
-.header__logo {
+.logo {
   width: 183px;
   height: 32px;
-  background-image: url("../images/logo_place_header.svg");
   z-index: 1;
 }
 
-.logo_position {
+.logo_place_header {
   position: absolute;
   top: 32px;
   left: 64px;
@@ -39,7 +38,7 @@
   margin-left: 65px;
   line-height: 96px;
   font-size: 102px;
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .header__subtitle {
@@ -74,6 +73,101 @@
   background-color: #2f80ed;
   top: 62px;
   right: 0;
+}
+
+.two-columns {
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 100px auto;
+}
+
+.two-columns__brief {
+  width: 175px;
+}
+
+.two-columns__link {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.two-columns__main-text {
+  width: 80%;
+  min-width: 784px;
+}
+
+.two-columns__paragraph {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.two-columns__paragraph_marg_top-bot {
+  margin: 30px 0;
+}
+
+.two-columns__paragraph_no-margin {
+  margin: 0;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+  line-height: 34px;
+  font-size: 24px;
+} 
+
+.digits {
+  margin: 100px 0;
+}
+
+.section-title {
+  line-height: 69px;
+  font-size: 60px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  display: block;
+  width: 60%;
+  margin: 0 auto 20px;
+  text-align: center;
+}
+.sub-title {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  margin-bottom: 20px;
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.table {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1100px;
+  margin: 0 auto;
+}
+.table__cell {
+  width: 250px;
+  margin-top: 60px;
+}
+.table__heading {
+  margin: 0 0 20px;
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight:  normal;
+}
+
+.table__text_mar-bot {
+  margin: 20px 0 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
